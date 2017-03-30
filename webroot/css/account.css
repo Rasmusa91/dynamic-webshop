@@ -1,0 +1,16 @@
+.account-wrapper {
+    padding: 10px;
+}
+
+.account-header {
+    border-bottom: 1px solid #d6dadc;
+}
+
+.account-header-title {
+    font-weight: bold;
+}
+
+.account-header-nav-item {
+    margin-left: 10px;
+    font-size: 14px;
+}

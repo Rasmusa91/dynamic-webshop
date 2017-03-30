@@ -1,0 +1,245 @@
+.products {
+    padding: 10px;
+}
+
+.account-wrapper .products {
+    padding: 0;
+}
+
+.products .items {
+    width: 69%;
+}
+
+.account-wrapper .products .items {
+    width: 100%;
+}
+
+
+.products .cart {
+    width: 30%;
+}
+
+.products .items .header, .products .cart .header {
+    background: #000;
+    width: 100%;
+    height: 25px;
+    overflow: hidden;
+    line-height: 25px;
+}
+
+.products .items .header .products-header-title, .products .cart .header .products-header-title {
+    color: #fff;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.products .items .header .status, .products .cart .header .status {
+    color: #fff;
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+.products .items .content, .products .cart .content, .products .items .load {
+    background: #f3f3f3;
+}
+
+.products .items .content .item, .products .cart .content .item, .products .items .load {
+    border-bottom: 1px solid #e5e4e1;
+    padding: 4px;
+}
+
+.products .items .load {
+    text-align: center;
+    padding: 10px !important;
+    cursor: pointer;
+    font-style: italic;
+}
+
+.products .items .load:hover {
+    background: #e5e4e1;
+}
+
+.products .items .content .item.pagination .right, .products .items .content .item.pagination .left {
+    width: 20%;
+}
+
+.products .items .content .item.pagination .middle {
+    width: 60%;
+    text-align: center;
+}
+
+.products .items .content .item.pagination .right {
+    text-align: right;
+}
+
+.products .items .content .item .button {
+    width: 100px;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.products .items .content .item .button i {
+    font-size: 12px;
+}
+
+.products .items .content .item .image {
+    position: relative;
+}
+
+.products .items .content .item .image img {
+    width: 64px;
+    height: 64px;
+    object-fit: scale-down;
+}
+
+.products .items .content .item .image .file {
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.products .items .content .item .image .upload {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: white;
+    background: #66ccff;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.products .items .content .item .image .upload:hover {
+    background: #99ddff;
+}
+
+.products .items .content .item input {
+    height: 24px;
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+.products .items .content .item .info, .products .items .content .item .price {
+    padding: 5px;
+}
+
+.products .items .content .item .info .name, .products .items .content .item .price .name {
+    font-weight: bold;
+}
+
+.products .items .content .item.edit .info .name, .products .items .content .item.edit .price .name {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.products .items .content .item .price {
+    text-align: right;
+}
+
+.products .items .content .item .price .rest, .products .items .content .item .info .rest {
+    font-size: 12px;
+    padding-top: 4px;
+}
+
+.products .cart .content .item .button {
+    width: 135px;
+}
+
+.products .cart .content .item .quantity {
+    padding-right: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.products .cart .content .item .price {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 3px;
+}
+
+.products .cart .content .item .remove {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.products .cart .content .item .remove:hover {
+    color: red;
+}
+
+.products .cart .content .total {
+    text-align: right;
+}
+
+.filter {
+    padding: 1%;
+}
+
+.account-wrapper .filter {
+    padding: 10px 0;
+}
+
+.filter .search {
+    border: 1px solid #d6dadc;
+    border-radius: 3px;
+}
+
+.filter .search .icon {
+    padding: 1%;
+}
+
+.filter .search .input {
+    width: 93.8%;
+}
+
+.filter .search .input input {
+    width: 100%;
+    padding-top: 1.4%;
+    background: none;
+    border: none;
+}
+
+.filter .search:hover {
+    border: 1px solid #9e9e9e;
+}
+
+.filter .search.focus {
+    border: 1px solid #00bcd4;
+}
+
+.filter .search .input input:focus {
+    outline: none;
+}
+
+.filter .categories {
+    margin-top: 10px;
+}
+
+.filter .categories .top {
+    border-bottom: 1px solid #d6dadc;
+    margin-bottom: 4px;
+}
+
+.filter .categories .top .title {
+    font-weight: bold;
+}
+
+.filter .categories .expand {
+
+}
+
+.filter .categories .bottom .cat {
+    padding-right: 10px;
+}
+
+.filter .categories .bottom .cat .cat-name {
+    font-size: 14px;
+    padding-top: 2px;
+}
